@@ -1,0 +1,17 @@
+<div class="container">
+	
+    <input routerLink="" type="button" class="btn btn-secondary btn-sm" value="Return List Tax Payer">
+    <section class="my-4">
+    <div class="container">
+        <h1>{{taxpayer?.name}}</h1>
+    </div>
+  </section>
+    
+	<ul>
+		<li><strong> CPF:</strong> {{taxpayer?.cpf}}</li>
+		<li><strong> Number Dependents:</strong> {{taxpayer?.numberDependents}}</li>
+		<li><strong> Gross Income:</strong> {{taxpayer?.grossIncome}}</li>
+		<li><strong> IR:</strong> {{taxpayer[taxpayerIR]?.ir}}</li>
+	</ul>
+
+</div>

@@ -1,0 +1,52 @@
+  <section class="mt-5">
+    <div class="container">
+      <div class="row">
+        <input routerLink="create" type="button" class="btn btn-secondary btn-sm" name="Create" value="Create">
+      </div>
+    </div>
+  </section>
+  <section class="mt-5">
+    <div class="container">
+      <p></p>
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead class="thead-light text-center">
+              <tr>
+                <th class="w-25">Name</th>
+
+                <th class="w-25">CPF</th>
+
+                <th class="w-25">Number of Dependents</th>
+
+                <th class="w-25">Gross Income</th>
+
+                <th class="w-25">IR</th>
+
+                <th></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr *ngFor="let incometax of incomeTax$">
+
+                <td>{{incometax.name}}</td>
+
+                <td>{{incometax.cpf}}</td>
+
+                <td>{{incometax.numberDependents}}</td>
+
+                <td>{{incometax.grossIncome}}</td>
+
+                <td>{{incometax.taxpayerIR?.ir}}</td>
+
+                <td>
+                  <input [routerLink]="['/detail', incometax.id]" type="button" class="btn btn-secondary btn-sm" name="Detail" value="Detail">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
