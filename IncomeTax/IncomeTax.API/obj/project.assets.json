@@ -11671,11 +11671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.API\\IncomeTax.API.csproj",
+      "projectUniqueName": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.API\\IncomeTax.API.csproj",
       "projectName": "IncomeTax.API",
-      "projectPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.API\\IncomeTax.API.csproj",
+      "projectPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.API\\IncomeTax.API.csproj",
       "packagesPath": "C:\\Users\\gleis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.API\\obj\\",
+      "outputPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11692,14 +11692,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Domain\\IncomeTax.Domain.csproj": {
-              "projectPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Domain\\IncomeTax.Domain.csproj"
+            "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Domain\\IncomeTax.Domain.csproj": {
+              "projectPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Domain\\IncomeTax.Domain.csproj"
             },
-            "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Infra.Data\\IncomeTax.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Infra.Data\\IncomeTax.Infra.Data.csproj"
+            "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Infra.Data\\IncomeTax.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Infra.Data\\IncomeTax.Infra.Data.csproj"
             },
-            "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Ioc\\IncomeTax.Ioc.csproj": {
-              "projectPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Ioc\\IncomeTax.Ioc.csproj"
+            "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Ioc\\IncomeTax.Ioc.csproj": {
+              "projectPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Ioc\\IncomeTax.Ioc.csproj"
             }
           }
         }

@@ -17,27 +17,40 @@
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" id="name" name="name"
-            class="form-control" placeholder="Name" [(ngModel)]="currentTaxpayer.name" required/>
+            class="form-control" placeholder="Name" [(ngModel)]="currentTaxpayer.name" #name="ngModel"  required/>
+            <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger">
+              <div *ngIf="name.errors.required">First Name is required</div>
+            </div>
         </div>
 
         <div class="form-group">
           <label for="cpf">CPF</label>
           <input type="text" id="cpf" name="cpf"
-            class="form-control" placeholder="CPF" [(ngModel)]="currentTaxpayer.cpf" required/>
+            class="form-control" placeholder="CPF" [(ngModel)]="currentTaxpayer.cpf" #cpf="ngModel"  required maxlength="14" pattern = "/^(\d{3}\.){2}\d{3}\-\d{2}$/"/>
+            <div *ngIf="cpf.invalid && (cpf.dirty || cpf.touched)" class="alert alert-danger">
+              <div *ngIf="cpf.errors.required">CPF is required</div>
+              <div *ngIf="cpf.errors.maxlength">CPF must be a maximum of 14 characters</div>
+            </div>
         </div>
 
         <div class="form-group">
           <label for="numberDependents">Number Dependents</label>
           <input type="text" id="numberDependents" name="numberDependents"
             class="form-control" placeholder="Number Dependents"
-            [(ngModel)]="currentTaxpayer.numberDependents" required/>
+            [(ngModel)]="currentTaxpayer.numberDependents" #numberDependents="ngModel" required maxlength="2"/>
+            <div *ngIf="numberDependents.invalid && (numberDependents.dirty || numberDependents.touched)" class="alert alert-danger">
+              <div *ngIf="numberDependents.errors.required">Number of Dependents is required</div>
+              <div *ngIf="numberDependents.errors.maxlength">Number of Dependents must be a maximum of 2 characters</div>
+            </div>
         </div>
 
         <div class="form-group">
           <label for="grossIncome">Gross Income</label>
           <input type="text" id="grossIncome" name="grossIncome"
-            class="form-control" placeholder="Gross Income"
-            [(ngModel)]="currentTaxpayer.grossIncome" required/>
+            class="form-control" placeholder="Gross Income" [(ngModel)]="currentTaxpayer.grossIncome" #grossIncome="ngModel" required/>
+            <div *ngIf="grossIncome.invalid && (grossIncome.dirty || grossIncome.touched)" class="alert alert-danger">
+              <div *ngIf="grossIncome.errors.required">Gross Income is required</div>
+            </div>
         </div>
 
         <button type="submit" class="btn btn-primary"

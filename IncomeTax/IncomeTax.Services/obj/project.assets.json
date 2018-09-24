@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Services\\IncomeTax.Services.csproj",
+      "projectUniqueName": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Services\\IncomeTax.Services.csproj",
       "projectName": "IncomeTax.Services",
-      "projectPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Services\\IncomeTax.Services.csproj",
+      "projectPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Services\\IncomeTax.Services.csproj",
       "packagesPath": "C:\\Users\\gleis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gleis\\source\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Services\\obj\\",
+      "outputPath": "C:\\Users\\gleis\\workspace\\Hbsis\\Hbsis\\IncomeTax\\IncomeTax.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

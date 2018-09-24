@@ -24,3 +24,12 @@ C:\Users\gleis\source\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcore
 C:\Users\gleis\source\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.AssemblyInfo.cs
 C:\Users\gleis\source\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.dll
 C:\Users\gleis\source\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.pdb
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\bin\Debug\netcoreapp2.1\IncomeTax.Services.deps.json
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\bin\Debug\netcoreapp2.1\IncomeTax.Services.dll
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\bin\Debug\netcoreapp2.1\IncomeTax.Services.pdb
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.csprojAssemblyReference.cache
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.csproj.CoreCompileInputs.cache
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.AssemblyInfoInputs.cache
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.AssemblyInfo.cs
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.dll
+C:\Users\gleis\workspace\Hbsis\Hbsis\IncomeTax\IncomeTax.Services\obj\Debug\netcoreapp2.1\IncomeTax.Services.pdb
